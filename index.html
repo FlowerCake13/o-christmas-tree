@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>O Christmas Tree</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="container">
+		<div id="sidebar">
+			<div id="sidebar-title"></div>
+			<div id="ornament-container">
+					<img src="assets/pink.png" id="ornament1" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/red.png" id="ornament2" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/orange.png" id="ornament3" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/yellow.png" id="ornament4" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/green.png" id="ornament5" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/blue.png" id="ornament6" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/darkblue.png" id="ornament7" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/darkpurple.png" id="ornament8" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/purple.png" id="ornament9" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/white.png" id="ornament10" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/black.png" id="ornament11" class="ornament" draggable="true" ondragstart="drag(event)" ></img>
+					<img src="assets/star.png" id="star" class="ornament" draggable="true" ondragstart="drag(event)"></img>
+			</div>
+			<div id="other-container">
+				<img src="assets/wreath.jpeg"  id="other1" class="other" width="100px" hieght="100px" draggable="true" ondragstart="drag(event)" ></img>
+				<img src="assets/gift.png" id="other2" class="other" width="100px" hieght="100px" draggable="true" ondragstart="drag(event)" ></img>
+				<img src="assets/gift.png" id="other3" class="other" width="100px" hieght="100px" draggable="true" ondragstart="drag(event)" ></img>
+				<img src="assets/gift.png" id="other4" class="other" width="100px" hieght="100px" draggable="true" ondragstart="drag(event)" ></img>
+			</div>
+			<button id="buttonThing"><img src='assets/button.png' height="100px" width="100px"></button>
+		</div>
+		<div id="tree">
+			<div id="treepart1" class="treepart" ondragover="allowDrop(event)" ondrop="drop(event)"></div>	
+			<div id="treepart2" class="treepart" ondragover="allowDrop(event)" ondrop="drop(event)"></div>	
+			<div id="treepart3" class="treepart" ondragover="allowDrop(event)" ondrop="drop(event)"></div>	
+			<div id="treepart4" class="treepart" ondragover="allowDrop(event)" ondrop="drop(event)"></div>	
+			<div id="treepart5" class="treepart" ondragover="allowDrop(event)" ondrop="drop(event)"></div>	
+			<div id="treepart6" class="treepart" ondragover="allowDrop(event)" ondrop="drop(event)"></div>	
+		</div>
+	</div>
+</body>
+<script src="js/app.js"></script>
+</html>

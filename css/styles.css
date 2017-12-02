@@ -1,0 +1,102 @@
+body{
+	margin: 0px;
+}
+
+#container{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+#sidebar{
+	height: 100%;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#sidebar-title{
+	height: 30px;
+	width: 100%;
+	background-color: #ffcfcc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#ornament-container{
+	width: 70%;
+	height: 30%;
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;*/
+	overflow: scroll;
+}
+
+.ornament{
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+	border-radius: 200px;
+}
+
+#other-container{
+	width: 100%;
+	height: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.other{
+	margin: 10px;
+}
+
+#tree{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.treepart{
+	height: 50px;
+	background-color: #ceffd1;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+#treepart1{
+	height: 100px;
+	width: 100px;
+}
+
+#treepart2{
+	width: 50px;
+}
+
+#treepart3{
+	width: 100px;
+}
+
+#treepart4{
+	width: 150px;
+}
+
+#treepart5{
+	width: 200px;
+}
+
+#treepart6{
+	height: 150px;
+	width: 500px;
+}
